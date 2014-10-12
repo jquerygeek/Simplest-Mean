@@ -1,0 +1,41 @@
+extends header
+
+block bodycontent
+ div(ng-controller='LoginRegister')
+   .container
+     div
+       div
+         h1 Login
+             .row
+               div
+                 form(role='form', method="post", novalidate, name='form1', class='css-form', ng-submit='loginForm()')
+                   .form-group
+                     label Username
+                     div
+                       input.form-control(type='text', name="username", placeholder='Enter Username', ng-model='user1.username', required, ng-minlength='3', ng-maxlength='20', ng-focus)
+                       span(ng-show!="form1.username.$dirty && !form1.username.$focused")
+                         span(ng-show="form1.username.$invalid")
+                           span(ng-show="form1.username.$error.required")
+                             small Enter the username.
+                           span(ng-show="form1.username.$error.minlength")
+                             small Username is too short.
+                           span(ng-show="form1.username.$error.maxlength")
+                             small Username is too big.
+                   .form-group
+                     label Password
+                     div
+                       input.form-control(type='password', id='password' name="password", placeholder='Password', ng-model="user1.password", ng-minlength='6', required, ng-focus)
+                       span(ng-show!="form1.password.$dirty && !form1.password.$focused")
+                         span(ng-show="form1.password.$invalid")
+                           span(ng-show="form1.password.$error.required")
+                             small Enter the password.
+                           span(ng-show="form1.password.$error.minlength")
+                             small Length of password should be greater than 6 characters.
+                   .row
+                     div(class='col-lg-8 col-md-offset-4 padding-left-0 padding-top-20')
+                       button.btn.btn-primary(type='submit', ng-disabled="form1.$invalid || isUnchanged(user1)") Submit
+                     div(ng-show='underProgress()', style='text-align:center;')
+                       img(src='images/ProgressIcon.gif', width='60px', height='60px')
+                   .row
+                     div(class='col-lg-8 col-md-offset-4 padding-left-0 padding-top-20')            
+                       alert(ng-repeat='alert in alerts', type='alert.type', close='closeAlert($index)') {{alert.msg}}

@@ -1,0 +1,11 @@
+/**
+ *
+ * This is useless for you. It is just application configuration file. It is specific to my application code.
+ * You can use it by reading this file in your application. 
+ *
+ */
+
+{
+    "fileUploadSizeLimit": "1500000",
+    "theme": "classic"
+}

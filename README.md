@@ -2,7 +2,7 @@
 
 ## Description
 
-Simplest MEAN is a full-stack JavaScript open-source solution, which provides a solid starting point for [MongoDB](http://www.mongodb.org/), [Express](http://expressjs.com/), [AngularJS](http://angularjs.org/), [Node.js](http://www.nodejs.org/) and [Socket.IO](http://socket.io) based applications. This project is inspired by [MEAN.JS](https://github.com/meanjs/mean).
+Simplest MEAN is a full-stack JavaScript open-source solution, which provides a simple starting point for [MongoDB](http://www.mongodb.org/), [Express](http://expressjs.com/), [AngularJS](http://angularjs.org/), [Node.js](http://www.nodejs.org/) and [Socket.IO](http://socket.io) based applications. This project is inspired by [MEAN.JS](https://github.com/meanjs/mean).
 
 I am developing this boilerplate as a hobbyist. This is not complete and should not be used in serious project. This boilerplate is for novice and beginners specially for those programmers who are new to world of web application development. As I am also new to Nodejs, Angularjs, Expressjs & MongoDB, therefore, I have tried to make such a boilerplate which is simplest and easiest of all available mean boilerplates. It doesn't demand you to be expert of all the MEAN technologies.
 

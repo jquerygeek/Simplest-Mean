@@ -23,7 +23,7 @@ LinkedIn: https://www.linkedin.com/pub/sojharo-mangi/18/360/62b
 Twitter: https://twitter.com/SojharoMangi
 
 ## Install
-Once you've downloaded the boilerplate and installed NodeJS, MongoDB, NPM and Expressjs, you're just a few steps away from starting to develop you simplest MEAN application.
+Once you've downloaded the boilerplate and installed Node.js, MongoDB, NPM and Expressjs, you're just a few steps away from starting to develop your Simplest MEAN application.
 
 The first thing you should do is install the Node.js dependencies. The boilerplate comes pre-bundled with a package.json file that contains the list of modules you need to start your application.
 
@@ -33,7 +33,7 @@ To install Node.js dependencies you're going to use npm, in the application fold
 $ npm install
 ```
 
-It will create a folder called node_modules. All the dependencies will downloaded in that folder.
+It will create a folder called node_modules. All the dependencies will be downloaded in this folder.
 
 ## Running Your Application
 After the install process is over, you'll be able to run your application. Just type following in the command line:
@@ -46,6 +46,8 @@ Your application should run on the 3000 port so in your browser just go to [http
                             
 ## License
 (The MIT License)
+
+Copyright (c) 2014 Sojharo
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
